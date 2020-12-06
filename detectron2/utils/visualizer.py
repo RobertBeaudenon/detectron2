@@ -220,7 +220,7 @@ class _PanopticPrediction:
                 yield mask, sinfo
 
 
-def _create_text_labels(classes, scores, class_names):
+def _create_text_labels(classes, scores, class_names=['robert', 'bernard']):
     """
     Args:
         classes (list[int] or None):
